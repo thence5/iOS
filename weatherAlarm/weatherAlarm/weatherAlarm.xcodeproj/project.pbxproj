@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		CB38E8AE1E153C5800EE3F5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB38E8AD1E153C5800EE3F5F /* AppDelegate.swift */; };
-		CB38E8B01E153C5800EE3F5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB38E8AF1E153C5800EE3F5F /* ViewController.swift */; };
+		CB38E8B01E153C5800EE3F5F /* AlarmController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB38E8AF1E153C5800EE3F5F /* AlarmController.swift */; };
 		CB38E8B31E153C5900EE3F5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB38E8B11E153C5900EE3F5F /* Main.storyboard */; };
 		CB38E8B51E153C5900EE3F5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB38E8B41E153C5900EE3F5F /* Assets.xcassets */; };
 		CB38E8B81E153C5900EE3F5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB38E8B61E153C5900EE3F5F /* LaunchScreen.storyboard */; };
+		CB38E8C01E1543F600EE3F5F /* AlarmEditController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB38E8BF1E1543F600EE3F5F /* AlarmEditController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CB38E8AA1E153C5800EE3F5F /* weatherAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weatherAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB38E8AD1E153C5800EE3F5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CB38E8AF1E153C5800EE3F5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB38E8AF1E153C5800EE3F5F /* AlarmController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmController.swift; sourceTree = "<group>"; };
 		CB38E8B21E153C5900EE3F5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB38E8B41E153C5900EE3F5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB38E8B71E153C5900EE3F5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB38E8B91E153C5900EE3F5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB38E8BF1E1543F600EE3F5F /* AlarmEditController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmEditController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				CB38E8AD1E153C5800EE3F5F /* AppDelegate.swift */,
-				CB38E8AF1E153C5800EE3F5F /* ViewController.swift */,
+				CB38E8AF1E153C5800EE3F5F /* AlarmController.swift */,
+				CB38E8BF1E1543F600EE3F5F /* AlarmEditController.swift */,
 				CB38E8B11E153C5900EE3F5F /* Main.storyboard */,
 				CB38E8B41E153C5900EE3F5F /* Assets.xcassets */,
 				CB38E8B61E153C5900EE3F5F /* LaunchScreen.storyboard */,
@@ -136,7 +139,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB38E8B01E153C5800EE3F5F /* ViewController.swift in Sources */,
+				CB38E8C01E1543F600EE3F5F /* AlarmEditController.swift in Sources */,
+				CB38E8B01E153C5800EE3F5F /* AlarmController.swift in Sources */,
 				CB38E8AE1E153C5800EE3F5F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
